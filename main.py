@@ -3,7 +3,7 @@ from fastapi.responses import RedirectResponse
 
 app = FastAPI()
 
-RENEW_BASE = "https://renew.corporateformfiling.com/SearchFile"
+RENEW_BASE = "https://renew.corporateformfiling.com/Go"
 
 @app.get("/health")
 def health():
