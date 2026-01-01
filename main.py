@@ -3,7 +3,7 @@ from fastapi.responses import RedirectResponse
 
 app = FastAPI()
 
-RENEW_BASE = "https://renew.corporateformfiling.com"
+RENEW_BASE = "https://renew.corporateformfiling.com/SearchFile"
 
 @app.get("/{token}")
 def redirect_token(token: str):
